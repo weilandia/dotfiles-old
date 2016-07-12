@@ -1,4 +1,5 @@
 #git prompt
+#IT WORKS!!!!
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
 PS1='$(__git_ps1 " (%s)")'
