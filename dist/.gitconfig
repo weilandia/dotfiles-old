@@ -1,0 +1,13 @@
+[user]
+	name = Nick Weiland
+	email = nickweiland@gmail.com
+  username = weilandia
+[color]
+	ui = true
+[core]
+	editor = vim
+[push]
+  default = simple
+[github]
+	user = weilandia
+	token = 2b067cc9cc7d4cb123fe655f0b9eb4e1a5fe4804
