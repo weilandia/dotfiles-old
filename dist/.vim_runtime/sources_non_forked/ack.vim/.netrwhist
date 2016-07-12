@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/nweiland/Dropbox/Turing/projects/brin_posse'
+let g:netrw_dirhist_2='/Users/nweiland/Dropbox/Turing/projects/idea_box'
+let g:netrw_dirhist_3='/Users/nweiland/Dropbox/Turing/projects/rails_engine'
+let g:netrw_dirhist_4='/Users/nweiland/.gem'

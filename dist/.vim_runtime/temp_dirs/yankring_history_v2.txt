@@ -1,0 +1,51 @@
+a,v
+#,v
+# Please enter the commit message for your changes. Lines starting# with '#' will be ignored, and an empty message aborts the commit.# On branch 2_feature_login_and_searh_categories# Changes to be committed:#	new file:   app/assets/javascripts/categories.coffee#	new file:   app/assets/stylesheets/categories.scss#	modified:   app/controllers/application_controller.rb#	new file:   app/controllers/categories_controller.rb#	modified:   app/controllers/sessions_controller.rb#	modified:   app/controllers/users_controller.rb#	new file:   app/helpers/categories_helper.rb#	new file:   app/views/categories/show.html.erb#	modified:   app/views/home/index.html.erb#	modified:   app/views/layouts/application.html.erb#	modified:   app/views/sessions/new.html.erb#	new file:   app/views/shared/_categories.html.erb#	new file:   app/views/shared/_login_signup_nav.html.erb#	modified:   app/views/users/new.html.erb#	modified:   app/views/users/show.html.erb#	modified:   config/routes.rb#	new file:   spec/controllers/categories_controller_spec.rb#	new file:   spec/features/user_logs_in_and_visits_a_category_to_favorite_a_jif_spec.rb#	modified:   spec/features/user_visits_landing_page_and_signs_up_for_jiffy_spec.rb#	new file:   spec/helpers/categories_helper_spec.rb#	modified:   spec/helpers/home_helper_spec.rb#	modified:   spec/helpers/users_helper_spec.rb#,V
+u,v
+# encoding: UTF-8,v
+'value',v
+  <%= f.text_field :name %>  <%= f.label :price %>,V
+ ,v
+key,v
+  #  # Example resource route with options:  #   resources :products do  #     member do  #       get 'short'  #       post 'toggle'  #     end  #  #     collection do  #       get 'sold'  #     end  #   end  # Example resource route with sub-resources:  #   resources :products do  #     resources :comments, :sales  #     resource :seller  #   end  # Example resource route with more complex sub-resources:  #   resources :products do  #     resources :comments  #     resources :sales do  #       get 'recent', on: :collection  #     end  #   end  # Example resource route with concerns:  #   concern :toggleable do  #     post 'toggle'  #   end  #   resources :posts, concerns: :toggleable  #   resources :photos, concerns: :toggleable  # Example resource route within a namespace:  #   namespace :admin do  #     # Directs /admin/products/* to Admin::ProductsController  #     # (app/controllers/admin/products_controller.rb)  #     resources :products  #   end,V
+  # The priority is based upon order of creation: first created -> highest priority.  # See how all your routes lay out with "rake routes".  # You can have the root of your site routed with "root"  # root 'welcome#index'  # Example of regular route:  #   get 'products/:id' => 'catalog#view'  # Example of named route that can be invoked with purchase_url(id: product.id)  #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase  # Example resource route (maps HTTP verbs to controller actions automatically):  #   resources :products,V
+  #   end,v
+  #     resources :products,v
+  #     # (app/controllers/admin/products_controller.rb),v
+  #     # Directs /admin/products/* to Admin::ProductsController,v
+  #   namespace :admin do,v
+  # Example resource route within a namespace:,v
+  #   resources :photos, concerns: :toggleable,v
+  #   resources :posts, concerns: :toggleable,v
+  #     post 'toggle',v
+  #   concern :toggleable do,v
+  # Example resource route with concerns:,v
+  #     end,v
+  #       get 'recent', on: :collection,v
+  #     resources :sales do,v
+  #     resources :comments,v
+  #   resources :products do,v
+  # Example resource route with more complex sub-resources:,v
+  #     resource :seller,v
+  #     resources :comments, :sales,v
+  # Example resource route with sub-resources:,v
+  #       get 'sold',v
+  #     collection do,v
+  #,v
+  #       post 'toggle',v
+  #       get 'short',v
+  #     member do,v
+  # Example resource route with options:,v
+  #   resources :products,v
+  # Example resource route (maps HTTP verbs to controller actions automatically):,v
+  # Example of named route that can be invoked with purchase_url(id: product.id),v
+  #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase,v
+  # root 'welcome#index',v
+  # You can have the root of your site routed with "root",v
+  # See how all your routes lay out with "rake routes".,v
+  # The priority is based upon order of creation: first created -> highest priority.,v
+spider ,v
+`,v
+der ,v
+fly,v
+items,v
