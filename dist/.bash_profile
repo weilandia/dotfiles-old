@@ -22,14 +22,19 @@ export PS1="\[\033[0;36m\]\\W$PS1 \[\033[1;31m\]✈︎\[ \]\[\033[0m\]"
 export CLICOLOR=1
 export LSCOLORS=bxcxdxexfxgxBxCxDxExFx
 
-alias dotfiles="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/dotfiles"
-alias practice='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/prac'
-alias projects='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/projects'
-alias dbstart="postgres -D /usr/local/var/postgres"
+#file nav
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias ~='cd ~'
+
+#project files
+alias dotfiles="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/dotfiles"
+alias practice='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/prac'
+alias projects='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/projects'
+alias dbstart="postgres -D /usr/local/var/postgres"
+
+#git
 alias gs='git status -s'
 alias gc='git commit -m'
 alias gcm='git commit'
@@ -38,15 +43,24 @@ alias gp='git push origin'
 alias pull='git pull'
 alias gh='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
 alias hist='git log --graph --date=short'
+
+#applications
 alias github='open https://github.com/weilandia'
-alias pi='ssh pi@10.0.0.135'
-alias piweb='open http://10.0.0.135'
 alias localhost='open http://192.168.2.1/'
 alias chrome='open -a "Google Chrome"'
+alias slack='open -a "Slack"'
+alias slack='open -a "Spotify"'
+
+#ras pi
+alias pi='ssh pi@10.0.0.135'
+alias piweb='open http://10.0.0.135'
+
+#show/hide files
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
 # prefer brew installed binaries over Apple installed ones
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
