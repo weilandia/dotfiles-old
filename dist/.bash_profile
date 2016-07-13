@@ -29,9 +29,12 @@ alias ....="cd ../../.."
 alias ~='cd ~'
 
 #project files
+alias dev="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev"
 alias dotfiles="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/dotfiles"
 alias practice='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/prac'
 alias projects='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/projects'
+
+#db
 alias dbstart="postgres -D /usr/local/var/postgres"
 
 #git
