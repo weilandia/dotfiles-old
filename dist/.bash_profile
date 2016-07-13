@@ -1,5 +1,3 @@
-#git prompt
-#IT WORKS!!!!
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
 PS1='$(__git_ps1 " (%s)")'
@@ -24,28 +22,27 @@ export PS1="\[\033[0;36m\]\\W$PS1 \[\033[1;31m\]✈︎\[ \]\[\033[0m\]"
 export CLICOLOR=1
 export LSCOLORS=bxcxdxexfxgxBxCxDxExFx
 
-alias bashprofile='atom . ~/.bash_profile'
+alias dotfiles="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/dotfiles"
+alias practice='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/prac'
+alias projects='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/projects'
 alias dbstart="postgres -D /usr/local/var/postgres"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias ~='cd ~'
-alias practice='cd ~/Dropbox/dev/practice'
-alias prac='cd ~/Dropbox/dev/prac'
-alias projects='cd ~/Dropbox/dev/projects'
-alias gits='git status -s'
-alias gitc='git commit -m'
-alias gitcm='git commit'
-alias gita='git add'
-alias gitp='git push origin'
+alias gs='git status -s'
+alias gc='git commit -m'
+alias gcm='git commit'
+alias ga='git add'
+alias gp='git push origin'
 alias pull='git pull'
 alias gh='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
+alias hist='git log --graph --date=short'
 alias github='open https://github.com/weilandia'
 alias pi='ssh pi@10.0.0.135'
 alias piweb='open http://10.0.0.135'
 alias localhost='open http://192.168.2.1/'
 alias chrome='open -a "Google Chrome"'
-alias hist='git log --graph --date=short'
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
