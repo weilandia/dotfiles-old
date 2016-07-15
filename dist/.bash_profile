@@ -41,13 +41,13 @@ alias projects='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/projects'
 alias dbstart="postgres -D /usr/local/var/postgres"
 
 #git
-alias gs='git status -s'
-alias gc='git commit -m'
-alias gcm='git commit'
-alias ga='git add'
-alias gp='git push origin'
+alias gits='git status -s'
+alias gitc='git commit -m'
+alias gitcm='git commit'
+alias gita='git add'
+alias gitp='git push origin'
 alias pull='git pull'
-alias gh='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
+alias log='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
 alias hist='git log --graph --date=short'
 
 #applications
