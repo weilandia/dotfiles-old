@@ -49,6 +49,9 @@ alias gitp='git push origin'
 alias pull='git pull'
 alias log='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
 alias hist='git log --graph --date=short'
+alias branches='git for-each-ref --sort=-committerdate --format=\"%(color:blue)%(authordate:relative)\t%(color:red)%(authorname)\t%(color:white)%(color:bold)%(refname:short)\" refs/remotes'
+alias co='git checkout'
+alias rebase='git rebase -i HEAD~'
 
 #applications
 alias github='open https://github.com/weilandia'
