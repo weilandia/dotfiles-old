@@ -1,7 +1,7 @@
 [user]
 	name = Nick Weiland
 	email = nickweiland@gmail.com
-  username = weilandia
+	username = weilandia
 [color]
 	ui = true
 [core]
@@ -9,9 +9,13 @@
 	excludesfile = ~/.gitignore
 	autocrlf = input
 [push]
-  default = simple
+	default = simple
+[diff]
+	mnemonicprefix = true
 [github]
 	user = weilandia
 	token = 2b067cc9cc7d4cb123fe655f0b9eb4e1a5fe4804
 [rebase]
 	autosquash = true
+[commit]
+	template = ~/.gitmessage
