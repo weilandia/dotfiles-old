@@ -27,6 +27,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias ~='cd ~'
+alias ll='ls -la'
 
 #comp dirs
 alias cloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
