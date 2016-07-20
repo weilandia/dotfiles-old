@@ -36,6 +36,7 @@ alias cloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
 alias dev="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev"
 alias dotfiles="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/dotfiles"
 alias practice='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/prac'
+alias prac='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/prac'
 alias projects='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/projects'
 
 #db
