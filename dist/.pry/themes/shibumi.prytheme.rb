@@ -1,4 +1,3 @@
-#IT WORKKKKSSSS
 t = PryTheme.create :name => 'shibumi' do
   author :name => 'Nick Weiland', :email => 'nickweiland@gmail.com'
   description 'Subtle beauty'
