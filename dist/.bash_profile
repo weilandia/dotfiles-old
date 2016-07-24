@@ -34,6 +34,8 @@ alias ll='ls -la'
 alias cloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
 
 #project files
+alias airbo="cd ~/workspace/airbo"
+alias work="cd ~/workspace/airbo"
 alias dev="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev"
 alias dotfiles="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/dotfiles"
 alias practice='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/prac'
@@ -77,3 +79,6 @@ export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
 
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.rvm/bin"
