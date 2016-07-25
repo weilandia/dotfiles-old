@@ -34,16 +34,20 @@ alias ll='ls -la'
 alias cloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
 
 #project files
-alias airbo="cd ~/workspace/airbo"
+alias dev="cd ~/workspace"
 alias work="cd ~/workspace/airbo"
-alias dev="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev"
-alias dotfiles="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/dotfiles"
-alias practice='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/prac'
-alias prac='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/prac'
-alias projects='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/dev/projects'
+alias dotfiles="cd ~/workspace/dotfiles"
+alias practice='cd ~/workspace/prac'
+alias prac='cd ~/workspace/prac'
+alias projects='cd ~/workspace/projects'
 
 #db
 alias dbstart="postgres -D /usr/local/var/postgres"
+
+#rails
+alias be="bundle exec"
+alias s="bundle exec rspec"
+alias cuc="bundle exec cucumber"
 
 #git
 alias gits='git status -s'
@@ -58,8 +62,11 @@ alias branches='git for-each-ref --sort=-committerdate --format=\"%(color:blue)%
 alias co='git checkout'
 alias gitre='git rebase -i HEAD~2'
 alias gitstat='git diff --stat'
+alias up='!git fetch origin && git rebase origin/master'
+alias mm='!test `git rev-parse master` = $(git merge-base HEAD master) && git checkout master && git merge HEAD@{1} || echo "Non-fastforward"'
 
 #applications
+alias airbo='open https://github.com/theairbo'
 alias github='open https://github.com/weilandia'
 alias localhost='open http://192.168.2.1/'
 alias chrome='open -a "Google Chrome"'
