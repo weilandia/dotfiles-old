@@ -35,7 +35,7 @@ alias cloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
 
 #project files
 alias dev="cd ~/workspace"
-alias work="cd ~/workspace/airbo"
+alias work="cd ~/workspace/airbo/hengage  ; source .env; heroku accounts:set airbo"
 alias dotfiles="cd ~/workspace/dotfiles"
 alias practice='cd ~/workspace/prac'
 alias prac='cd ~/workspace/prac'
@@ -43,6 +43,7 @@ alias projects='cd ~/workspace/projects'
 
 #db
 alias dbstart="postgres -D /usr/local/var/postgres"
+alias pg="psql -d postgres"
 
 #rails
 alias be="bundle exec"
